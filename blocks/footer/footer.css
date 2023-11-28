@@ -10,5 +10,17 @@ footer .footer {
 }
 
 footer .footer p {
-  margin: 0;
+  margin: 10px 0;
+  width: 75%;
+  font-size: 12px;
+  justify-content: space-between;
+  display: flex
 }
+
+footer .footer a {
+  color: var(--text-color);
+  font-size: 15px;
+}
+
+
+

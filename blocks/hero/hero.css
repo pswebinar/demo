@@ -16,9 +16,16 @@ main .hero {
 
 main .hero h1 {
   max-width: 1200px;
-  margin-left: auto;
+  margin-left: 14%;
   margin-right: auto;
   color: white;
+  width: 34%;
+  font-size: 2rem;
+}
+@media (max-width: 600px) {
+  main .hero h1 {
+    width: 100%;
+  }
 }
 
 main .hero picture {
